@@ -109,8 +109,28 @@ button{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+button:active {
+    background-color: #DDCD1D;
+}
 button:hover{
     background:linear-gradient(#7305C7,#210934);
+}
+#nome:focus{
+    background-color: rgb(243, 185, 245);
+    border: 3px solid rgb(111, 72, 250);
+}
+
+#telefone:focus{
+    background-color: rgb(243, 185, 245);
+    border: 3px solid rgb(111, 72, 250);
+}
+
+#email:valid{
+color: blue
+}
+
+#email:invalid{
+    color: darkred;
 }
 cabeca h1{
     font-family: 'Open Sans', sans-serif;
